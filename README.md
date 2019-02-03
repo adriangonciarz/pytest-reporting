@@ -4,9 +4,11 @@ At the end, PyTest should generate a report containing cURL of request and JSON 
 Obviously assertions are made to fail on purpose, so you can see the results.
 
 ### Installation
-Setup virtual environment for Python3. Then run Pip installation
+Setup virtual environment for Python3 (https://docs.python-guide.org/dev/virtualenvs/). Then run Pip installation
+
 `pip install -r requirements.txt`
 
 ### Running
 Run tests using command
+
 `pytest tests/ --html=report.html --self-contained-html`
